@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Лаба 1: Цифровое представление изображений</title>
+  <style>
+    body { font-family: sans-serif; margin: 20px; }
+    #viewer { border:1px solid black; display:block; margin-top:10px; }
+    #status { margin-top:10px; font-weight:bold; }
+  </style>
+</head>
+<body>
+  <h1>Загрузка изображения</h1>
+  <input type="file" id="fileInput" accept=".png,.jpg,.jpeg,.gb7"><br>
+  <canvas id="viewer"></canvas>
+  <div id="status">Статус: изображение не загружено</div>
+
+  <script src="main.js"></script>
+</body>
+</html>
